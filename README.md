@@ -34,8 +34,8 @@ Follow these steps to set up and run the project:
 ### Challenges Faced 
  **GPU Requirement**: Due to the intensive computational requirements, ensure your setup includes a GPU. If you don't have a GPU on your personal laptop:
 - Find an alternative computer with a GPU.
-- **webui-user.bat was named as webui-user, so took some time to figure out that**
-- **It may take some time to set up and fine-tune the parameters for generating images using Stable Diffusion Inpainting**.
+**webui-user.bat was named as webui-user, so took some time to figure out that**
+**It may take some time to set up and fine-tune the parameters for generating images using Stable Diffusion Inpainting**.
 
 
 
