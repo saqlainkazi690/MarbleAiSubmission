@@ -1,24 +1,40 @@
-# MarbleAiSubmission
-This repository contains all the required files for Marble AI's internship assignment 
-Project Title : Stable Diffusion Inpainting WEBUI
--Setup:
--Installed PYthon 3.10.6
--Installed Git
--Downloaded the stable diffusion Inpainting webui repository by running: "git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git"
--The github link of the stable diffusion webui Automatic1111 is "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
--Then from the stable diffusion webui folder installed on the device, ran webui-user.bat
--The stable diffusion webui is lanched after downloading all the necessary libraries including torch.
--In the stable diffusion webui:
--Used img2img generation
--In img2img generation used inpaint
--Sampling method used was - Euler a
--Sampling steps was changed to 85
--Used Soft Inpainting
--Used masking 
--Set CFG Scale at 6 through out for generating images
--Set denoising strength through out as 0.99 as the background for the images was needed to be added from nothing but plain white
--Set seed as -1
--Set batch size as 1
--Challenges faced through out:
--Did'nt have access to GPU in personal laptop so UI could'nt work so had to use a laptop with GPU.
-Took some time to setup an dtune the parameters for generating the images using stable diffusion inpainting
+# Stable Diffusion Inpainting WEBUI
+
+This repository contains all the necessary files for the Marble AI's internship assignment.
+
+## Project Title
+**Stable Diffusion Inpainting WEBUI**
+
+## Setup Instructions
+Follow these steps to set up and run the project:
+
+### Prerequisites
+- Python 3.10.6
+- Git
+
+### Installation
+ Clone the Stable Diffusion Inpainting WEBUI repository:
+- GitHub repository: [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
+### Running the Application
+1. Navigate to the `stable-diffusion-webui` folder.
+2. Execute `webui-user.bat` to start the application.
+3. The application will download all necessary libraries, including `torch`.
+
+## Using the WEBUI
+- **Inpainting with img2img**: 
+- Navigate to the img2img generation section and select `inpaint`.
+- **Sampling Method**: Euler a
+- **Sampling Steps**: Set to 85
+- **Inpainting Type**: Soft Inpainting
+- Use masking techniques.
+- **CFG Scale**: Set at 6
+- **Denoising Strength**: Set at 0.99 (especially useful when adding backgrounds to plain white areas)
+
+### Challenges Faced 
+ **GPU Requirement**: Due to the intensive computational requirements, ensure your setup includes a GPU. If you don't have a GPU on your personal laptop:
+- Find an alternative computer with a GPU.
+- It may take some time to set up and fine-tune the parameters for generating images using Stable Diffusion Inpainting.
+
+
+
