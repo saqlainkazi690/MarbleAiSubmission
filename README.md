@@ -13,8 +13,8 @@ Follow these steps to set up and run the project:
 - Git
 
 ### Installation
- Took insoiration from the Stable Diffusion Inpainting WEBUI repository:
-- GitHub repository: [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+ Took inspiration from the Stable Diffusion Inpainting WEBUI repository:
+- The repository: [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 ### Running the Application
 1. Navigate to the `stable-diffusion-webui` folder.
